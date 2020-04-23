@@ -1,0 +1,160 @@
+.title
+{
+    display: flex;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.name
+{
+    font-size: 450% ;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.flexLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-top: 0%;
+}
+.temp
+{
+    font-size: 600% ;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.flexRight
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+.desc
+{
+    display: flex;
+    justify-content: center;
+    font-size: 320%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/*Доп инфа*/
+.dop
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*end*/
+
+/*Ощущается как и температура*/
+.feelsTemps
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    font-size: 200%;
+}
+/*end*/
+
+/*Выравнивание доп инф по центру*/
+.feels
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.minTemp
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.maxTemp
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.wind
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.pressure
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.humidity
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+/*Ветер давление влажность*/
+.windPressure
+{
+    /*display: flex;*/
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 200%;
+}
+/*end*/
+
+.flexRightLeft
+{
+    display: flex;
+    flex-direction: column;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    border: 3px solid gray;
+    border-radius: 100px 100px 100px 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(15.png);
+    /*height: 268px;*/
+}
+.weather__icon
+{
+    height: 100%;
+}
+.title
+{
+    justify-content: center;
+}
+.name 
+{
+    display: flex;
+    justify-content: center;
+}
+.dopIcon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text
+{
+    width: 80%;
+}
